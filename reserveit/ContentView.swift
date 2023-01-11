@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) var managedObjectContext
+    @State var text: String = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TopNavView()
+            Spacer()
+            ScrollView {
+                Searchbar(text: $text)
+                ScrollBannerView()
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .frame(height: 170)
+                ScrollCategoryView()
+                ScrollNewCollectionView(text: text)
+            }
+        }
     }
 }
 

@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct reserveitApp: App {
+    @Environment(\.scenePhase) var scenePhase
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavBarView()
+                .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
+        }
+        .onChange(of: scenePhase) { _ in
+            PersistenceController.preview.save()
         }
     }
 }

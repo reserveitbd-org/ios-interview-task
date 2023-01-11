@@ -11,6 +11,15 @@
 		9E5363DE296DD98900286B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5363DD296DD98900286B5A /* Assets.xcassets */; };
 		9E5363E1296DD98900286B5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5363E0296DD98900286B5A /* Preview Assets.xcassets */; };
 		9E5363ED296DDA0500286B5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363EC296DDA0500286B5A /* ContentView.swift */; };
+		9E5363EF296DE3FB00286B5A /* TopNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363EE296DE3FB00286B5A /* TopNavView.swift */; };
+		9E5363F1296DE60500286B5A /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363F0296DE60500286B5A /* Searchbar.swift */; };
+		9E5363F3296DF11400286B5A /* ScrollBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363F2296DF11400286B5A /* ScrollBannerView.swift */; };
+		9E5363F5296DFA3900286B5A /* ScrollCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363F4296DFA3900286B5A /* ScrollCategoryView.swift */; };
+		9E5363F7296E06F800286B5A /* ScrollNewCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363F6296E06F800286B5A /* ScrollNewCollectionView.swift */; };
+		9E5363F9296E0A1D00286B5A /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363F8296E0A1D00286B5A /* NavBarView.swift */; };
+		9E5363FB296E0BAF00286B5A /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363FA296E0BAF00286B5A /* HelloWorldView.swift */; };
+		9E5363FE296F036400286B5A /* NewCollectionDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363FC296F036400286B5A /* NewCollectionDataModel.xcdatamodeld */; };
+		9E536400296F043000286B5A /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5363FF296F043000286B5A /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		9E5363DD296DD98900286B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E5363E0296DD98900286B5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E5363EC296DDA0500286B5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E5363EE296DE3FB00286B5A /* TopNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavView.swift; sourceTree = "<group>"; };
+		9E5363F0296DE60500286B5A /* Searchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
+		9E5363F2296DF11400286B5A /* ScrollBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollBannerView.swift; sourceTree = "<group>"; };
+		9E5363F4296DFA3900286B5A /* ScrollCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCategoryView.swift; sourceTree = "<group>"; };
+		9E5363F6296E06F800286B5A /* ScrollNewCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollNewCollectionView.swift; sourceTree = "<group>"; };
+		9E5363F8296E0A1D00286B5A /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		9E5363FA296E0BAF00286B5A /* HelloWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldView.swift; sourceTree = "<group>"; };
+		9E5363FD296F036400286B5A /* NewCollectionDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewCollectionDataModel.xcdatamodel; sourceTree = "<group>"; };
+		9E5363FF296F043000286B5A /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,15 @@
 			children = (
 				9E5363D9296DD98800286B5A /* reserveitApp.swift */,
 				9E5363EC296DDA0500286B5A /* ContentView.swift */,
+				9E5363EE296DE3FB00286B5A /* TopNavView.swift */,
+				9E5363F0296DE60500286B5A /* Searchbar.swift */,
+				9E5363F2296DF11400286B5A /* ScrollBannerView.swift */,
+				9E5363F4296DFA3900286B5A /* ScrollCategoryView.swift */,
+				9E5363F6296E06F800286B5A /* ScrollNewCollectionView.swift */,
+				9E5363FC296F036400286B5A /* NewCollectionDataModel.xcdatamodeld */,
+				9E5363FF296F043000286B5A /* PersistenceController.swift */,
+				9E5363F8296E0A1D00286B5A /* NavBarView.swift */,
+				9E5363FA296E0BAF00286B5A /* HelloWorldView.swift */,
 				9E5363DD296DD98900286B5A /* Assets.xcassets */,
 				9E5363DF296DD98900286B5A /* Preview Content */,
 			);
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5363F9296E0A1D00286B5A /* NavBarView.swift in Sources */,
 				9E5363ED296DDA0500286B5A /* ContentView.swift in Sources */,
+				9E5363FE296F036400286B5A /* NewCollectionDataModel.xcdatamodeld in Sources */,
+				9E5363F1296DE60500286B5A /* Searchbar.swift in Sources */,
+				9E536400296F043000286B5A /* PersistenceController.swift in Sources */,
+				9E5363F7296E06F800286B5A /* ScrollNewCollectionView.swift in Sources */,
 				9E5363DA296DD98800286B5A /* reserveitApp.swift in Sources */,
+				9E5363F5296DFA3900286B5A /* ScrollCategoryView.swift in Sources */,
+				9E5363F3296DF11400286B5A /* ScrollBannerView.swift in Sources */,
+				9E5363EF296DE3FB00286B5A /* TopNavView.swift in Sources */,
+				9E5363FB296E0BAF00286B5A /* HelloWorldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +375,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E5363FC296F036400286B5A /* NewCollectionDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E5363FD296F036400286B5A /* NewCollectionDataModel.xcdatamodel */,
+			);
+			currentVersion = 9E5363FD296F036400286B5A /* NewCollectionDataModel.xcdatamodel */;
+			path = NewCollectionDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9E5363CE296DD98800286B5A /* Project object */;
 }
