@@ -19,11 +19,18 @@ class BookMarkViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+  
+        setupBannerCvCell()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
         arrayViewModel.fetchData()
         newCollections = arrayViewModel.arr
         
-        setupBannerCvCell()
         newCategoryCollectionView.reloadData()
+
     }
     
     // MARK: - Private Methods -
