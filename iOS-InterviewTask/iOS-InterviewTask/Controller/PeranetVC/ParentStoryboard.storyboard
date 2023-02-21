@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lSp-ON-CEC">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ParentVC-->
+        <scene sceneID="L51-1B-hMl">
+            <objects>
+                <viewController id="lSp-ON-CEC" customClass="ParentVC" customModule="iOS_InterviewTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jja-up-9xT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rt0-kQ-TZS">
+                                <rect key="frame" x="0.0" y="757" width="393" height="95"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="w9p-fe-JLp">
+                                        <rect key="frame" x="20" y="-2.6666666666666288" width="353" height="66.333333333333329"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tql-mK-dKN">
+                                                <rect key="frame" x="0.0" y="0.0" width="66.666666666666671" height="66.333333333333329"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="tql-mK-dKN" secondAttribute="height" multiplier="1:1" id="slv-LV-75N"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="home" title=""/>
+                                                <connections>
+                                                    <action selector="tabBarAction:" destination="lSp-ON-CEC" eventType="touchUpInside" id="Ndg-5M-Ayv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLK-bI-FI3">
+                                                <rect key="frame" x="71.666666666666657" y="0.0" width="66.666666666666657" height="66.333333333333329"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="search" title=""/>
+                                                <connections>
+                                                    <action selector="tabBarAction:" destination="lSp-ON-CEC" eventType="touchUpInside" id="if7-HM-FDh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j12-zS-bbl">
+                                                <rect key="frame" x="143.33333333333334" y="0.0" width="66.333333333333343" height="66.333333333333329"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="save"/>
+                                                <connections>
+                                                    <action selector="tabBarAction:" destination="lSp-ON-CEC" eventType="touchUpInside" id="SGd-I3-nRe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kak-XE-gYm">
+                                                <rect key="frame" x="214.66666666666666" y="0.0" width="66.666666666666657" height="66.333333333333329"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Time" title=""/>
+                                                <connections>
+                                                    <action selector="tabBarAction:" destination="lSp-ON-CEC" eventType="touchUpInside" id="Jcb-qn-xTY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV1-cB-kcM">
+                                                <rect key="frame" x="286.33333333333331" y="0.0" width="66.666666666666686" height="66.333333333333329"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="account" title=""/>
+                                                <connections>
+                                                    <action selector="tabBarAction:" destination="lSp-ON-CEC" eventType="touchUpInside" id="Bpg-sq-cu7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.87450980392156863" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="w9p-fe-JLp" firstAttribute="leading" secondItem="rt0-kQ-TZS" secondAttribute="leading" constant="20" id="8HO-g0-qvw"/>
+                                    <constraint firstAttribute="trailing" secondItem="w9p-fe-JLp" secondAttribute="trailing" constant="20" id="Fzi-3o-sdu"/>
+                                    <constraint firstItem="w9p-fe-JLp" firstAttribute="centerY" secondItem="rt0-kQ-TZS" secondAttribute="centerY" constant="-16.999999999999964" id="lVP-Gd-k0Q"/>
+                                    <constraint firstAttribute="height" constant="95" id="pX7-vb-HDT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GyX-Aw-AyB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GyX-Aw-AyB" firstAttribute="bottom" secondItem="rt0-kQ-TZS" secondAttribute="bottom" constant="-34" id="GtA-k2-PTh"/>
+                            <constraint firstItem="rt0-kQ-TZS" firstAttribute="leading" secondItem="GyX-Aw-AyB" secondAttribute="leading" id="eZT-rm-QZZ"/>
+                            <constraint firstItem="rt0-kQ-TZS" firstAttribute="trailing" secondItem="GyX-Aw-AyB" secondAttribute="trailing" id="yCC-eF-NEI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tabBarView" destination="rt0-kQ-TZS" id="Jnm-lA-6vN"/>
+                        <outletCollection property="tabBarButtons" destination="tql-mK-dKN" collectionClass="NSMutableArray" id="urj-C1-uMb"/>
+                        <outletCollection property="tabBarButtons" destination="FLK-bI-FI3" collectionClass="NSMutableArray" id="11R-aP-l8j"/>
+                        <outletCollection property="tabBarButtons" destination="kak-XE-gYm" collectionClass="NSMutableArray" id="vHA-OB-zqn"/>
+                        <outletCollection property="tabBarButtons" destination="XV1-cB-kcM" collectionClass="NSMutableArray" id="hH6-wt-oqq"/>
+                        <outletCollection property="tabBarButtons" destination="j12-zS-bbl" collectionClass="NSMutableArray" id="lrD-24-dOV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="phf-3p-wpA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14.503816793893129" y="67.605633802816911"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Time" width="24.333333969116211" height="39"/>
+        <image name="account" width="40.333332061767578" height="39"/>
+        <image name="home" width="29.333333969116211" height="39"/>
+        <image name="save" width="30.333333969116211" height="39"/>
+        <image name="search" width="33.333332061767578" height="39"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
